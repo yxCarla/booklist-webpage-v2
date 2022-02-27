@@ -115,6 +115,6 @@ body {
     width: fit-content;
     padding: 5px;
 }
-#books {
+.books {
     text-align: left;
 }
