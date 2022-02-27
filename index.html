@@ -8,38 +8,30 @@
         <title>Book Recs and TBRs</title>
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luxurious Roman">
 
 
 
     </head>
     <body>
-        <div id="header">
-            <div class="main">
-                <div class="typewriter">
-                    <h2>Welcome!</h2>
-                </div>
-            </div>
-            <h1>Carla's Book Recommendations and To-Be-Reads</h1>
-        </div>
-        <div id="content">
-            <p>Choose a category to view:</p>
-            <div class="row">
-                <div class="selection">
-                    <div class="title">
-                        Recommendations
-                    </div>
-                </div>
-                <div class="selection">
-                    <div class="title">
-                        TBRs
+        <div id="all">
+            <div id="header">
+                <div class="main">
+                    <div class="typewriter">
+                        <h1>Carla's Book Recommendations and To-Be-Reads</h1>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="footer">
-            <h4>This project was made by yxCarla. Follow them on GitHub 
-                <a href="https://github.com/yxCarla" target="_blank">here</a>
-            </h4>
+            <div id="content">
+                <p>Choose a category to view:</p>
+                <button onclick="showRec()">Recs</button>
+                <button onclick="showTBR()">TBRs</button>
+            </div>
+            <div id="footer">
+                <h4>This project was made by yxCarla. Follow them on GitHub 
+                    <a href="https://github.com/yxCarla" target="_blank">here</a>
+                </h4>
+            </div>
         </div>
     </body>
 </html>
