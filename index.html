@@ -9,9 +9,8 @@
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Luxurious Roman">
-
-
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant Garamond">
+        <script src="script.js" defer></script>
     </head>
     <body>
         <div id="all">
@@ -23,14 +22,89 @@
                 </div>
             </div>
             <div id="content">
-                <p>Choose a category to view:</p>
-                <button onclick="showRec()">Recs</button>
-                <button onclick="showTBR()">TBRs</button>
+                <p style="font-weight: bold; font-size: x-large;">Choose a category to view:</p>
+                <button onclick="showRec()" id="rb">Recs</button>
+                <button onclick="showTBR()" id="tb">TBRs</button>
+                <button onclick="showLink()" id="lb">Links</button>
+                <div id="recommendations">
+                    So you have chosen to venture onto my recommendations... Curious, very curious...
+                    <br>
+                    
+                    <br>
+                    Well, here goes! 
+                    <br>
+                    <div class="colors">
+                        <span class="green">Green</span> is Sci-Fi
+                        <br>
+                        <span class="orange">Orange</span> is Fantasy
+                        <br>
+                        <span class="blue">Blue</span> is Dystopian
+                        <br>
+                        <span class="purple">Purple</span> is Other
+                    </div>
+                    <div id="books">
+                        <ul>
+                            <li><span class="green">Warcross Duology</span></li>
+                            <li><span class="orange">Six of Crows Duology</span></li>
+                            <li><span class="orange">The Blood of Stars Duology</span></li>
+                            <li><span class="orange">Girls of Paper and Fire Trilogy</span></li>
+                            <li><span class="green">The Loop Trilogy</span></li>
+                            <li><span class="blue">Legend Trilogy</span></li>
+                            <li><span class="orange">Renegades Trilogy</span></li>
+                            <li><span class="green">The Abyss Surrounds Us Duology</span></li>
+                            <li><span class="blue">Arc of a Scythe Trilogy</span></li>
+                            <li><span class="purple">A Good Girl's Guide to Murder</span></li>
+                            <li><span class="orange">Cursebreakers Trilogy</span></li>
+                            <li><span class="purple">The Midnight Library</span></li>
+                            <li><span class="green">The Generations Trilogy</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="tbr">
+                    You dare to sneak a glance at what I'm reading? I must applaud your effort...
+                    <br>
+                    <br>
+                    Anyways, I should probably show you now.
+                    <br>
+                    <div class="colors">
+                        <span class="green">Green</span> is Sci-Fi
+                        <br>
+                        <span class="orange">Orange</span> is Fantasy
+                        <br>
+                        <span class="blue">Blue</span> is Dystopian
+                        <br>
+                        <span class="purple">Purple</span> is Other
+                    </div>
+                    <div id="now">
+
+                    </div>
+                    <div id="future">
+
+                    </div>
+                </div>
+                <div id="link">
+                    So, here are some links to sites that <i>might</i> be helpful when it comes to books.
+                    <br>
+                    <br>
+                    <br>
+                        <a href="https://www.goodreads.com/" target="_blank">Goodreads</a>, where you can just basically find and log any book.
+                        (Be careful with the review section, though. Some of them get nasty).
+                        <br>
+                        <br>
+                        <a href="https://libbyapp.com" target="_blank">Libby</a>, the best ebook reader platform
+                        <br>
+                        <br>
+                        <a href="https://www.nypl.org/books-music-movies/ebookcentral/simplye" target="_blank">SimplyE</a>, another ebook reader platform
+                        <br>
+                        <br>
+                        <a href="https://www.amazon.com/Kindle-Store/b?ie=UTF8&node=133140011" target="_blank">Amazon Kindle</a>, if you're one of <i>those</i> people
+                        who buy overpriced ebooks... just kidding...
+                </div>
             </div>
             <div id="footer">
-                <h4>This project was made by yxCarla. Follow them on GitHub 
+                <p>This project was made by yxCarla. Follow them on GitHub 
                     <a href="https://github.com/yxCarla" target="_blank">here</a>
-                </h4>
+                </p>
             </div>
         </div>
     </body>

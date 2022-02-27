@@ -4,12 +4,12 @@
 button  {
     cursor: pointer;
     margin-right: 6px;
-    margin-top: 6px;
-    font-family: 'Roboto';
+    margin-bottom: 12px;
+    font-family: 'Cormorant Garamond';
     font-size: x-large;
     border-color: rgb(85, 65, 9);
     color: rgb(85, 65, 9);
-    
+    font-weight: bold;
     padding: 4px 12px;
     width: fit-content;
 
@@ -23,11 +23,8 @@ button:hover {
 h1 {
     font-family: 'Luxurious Roman';
     font-weight: bold;
-    
 }
-h4 {
-    font-weight: bold;
-}
+
 .typewriter h1 {
     width: fit-content;
     margin: 0 auto 0 auto;
@@ -38,7 +35,7 @@ h4 {
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 4.2s steps(40, end),
-      blink-caret .4s step-end 14;
+      blink-caret .5s step-end 14;
     border-color: transparent;
   }
   
@@ -60,7 +57,7 @@ h4 {
 }
 body {
     text-align: center;
-    font-family: 'Roboto';
+    font-family: 'Cormorant Garamond';
     background-image: url(https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YWVzdGhldGljJTIwYm9va3N8ZW58MHx8MHx8&w=1000&q=80);
     background-size: cover;
     
@@ -75,15 +72,49 @@ body {
 }
 #footer {
     width: fit-content;
-    margin: 55vh auto 0 auto;
-    
+    margin: 5vh auto 0 auto;
+    font-family: 'Roboto';
 }
-
 #all {
     background-color: rgb(209, 193, 171);
-    opacity: 90%;
+    opacity: 86%;
     width: 85%;
-    margin: 4% auto 2% auto;
+    margin: 3% auto 3% auto;
     border: 0.3vh solid rgb(206, 171, 121);
     padding-top: 25px;
+}
+#recommendations {
+    font-weight: bold;
+    font-size: larger;
+    display: none;
+}
+#tbr {
+    font-weight: bold;
+    font-size: larger;
+    display: none;
+}
+#link {
+    font-weight: bold;
+    font-size: larger;
+    display: none;
+}
+.green {
+    color: rgb(19, 179, 19);
+}
+.orange {
+    color: rgb(255, 124, 37);
+}
+.blue {
+    color: rgb(20, 71, 238);
+}
+.purple {
+    color: rgb(116, 13, 156);
+}
+.colors {
+    margin: 15px auto 5px auto;
+    width: fit-content;
+    padding: 5px;
+}
+#books {
+    text-align: left;
 }
